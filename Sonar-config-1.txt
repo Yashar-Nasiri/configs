@@ -1,0 +1,6 @@
+sonar.projectName=name
+sonar.projectVersion=version
+sonar.projectDescription=description
+sonar.links.homepage=homepage
+sonar.links.issue=bugs.url
+sonar.links.scm=repository.url

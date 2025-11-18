@@ -7,7 +7,7 @@ iwconfig
 airmon-ng stop wlan0
 airmon-ng check kill
 ```
-### Enable monitoring mode: (wlan0 --> wlan0mon)
+### Enable Monitoring Mode
 ```
 airmon-ng start wlan0 
 ```
@@ -55,7 +55,6 @@ airmon-ng wlan0
 ```
 hcxdumptool -i wlan0mon -o file1 --enable_status=1
 ```
-
 ### Extract PMKID Hashes
 ```
 hcxpcapngtool -o file2 file1

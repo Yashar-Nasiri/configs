@@ -28,8 +28,7 @@ sudo nano /etc/postgresql/17/main/pg_hba.conf
 ```
 host    all    all    192.168.1.0/24    scram-sha-256
 ```
-or
-## Allow only one host:  
+or allow only one host:  
 
 ```
  host all all 192.168.1.50/32 md5
